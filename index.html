@@ -4,8 +4,77 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta id="search-bar" name="theme-color" content="#f4acff" />
+    <meta name="browser-logo" content="#f4acff" />
+
+    <!-- <meta name="apple-mobile-web-app-status-bar-style" content="black" /> -->
+
+    <title>kevin</title>
+    <link rel="stylesheet" href="https://use.typekit.net/yvr4euv.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <nav class="header">
+      <h1 class="logo"><a href="index.php"> Kevin Babou</a></h1>
+
+      <ul class="nav-links">
+        <li id="about"><a href="about.php">About</a></li>
+        <li id="resume"><a href="resume.php">Resume</a></li>
+      </ul>
+
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+      </div>
+    </nav>
+    <div class="main">
+      <h1 class="main__header">Hi there!</h1>
+      <p class="main__intro">
+        My name is kevin and I'm a
+        <span class="main__bold">software engineer.</span> I'm currently working
+        at Coinbase on the NFT & ETH stacking team.
+      </p>
+      <p class="main__contacts">
+        Connect on
+        <a class="main__links" href="https://www.linkedin.com/in/kevinbabou/"
+          >LinkedIn</a
+        ><br />
+        Check out my <a class="main__links" href="">Github</a><br />
+        View my <a class="main__links" href="">Resume</a><br />
+        Learn my <a class="main__links" href="">Story</a><br />
+        or just email me at
+        <a class="main__links" href="mailto:kevincbabou@gmail.com"
+          >kevincbabou@gmail.com</a
+        >
+      </p>
+    </div>
+
+    <div class="footer">
+      <p class="footer__legals">
+        <span class="copy-symbol">&copy;</span>
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Kevin Babou
+      </p>
+      <p class="footer__gilles">
+        Website by
+        <a class="footer__designer" href="mailto:yannickbabou@gmail.com"
+          >Gilles Babou</a
+        >
+      </p>
+      <div class="footer__icons">
+        <a class="footer__in" href="https://www.linkedin.com/in/kevinbabou/"
+          ><img
+            class="footer__linkedin"
+            src="icons/linkedin-in.svg"
+            alt="linkedin"
+        /></a>
+        <a href="" class="footer__gh"
+          ><img class="footer__github" src="icons/github.svg" alt="github"
+        /></a>
+      </div>
+    </div>
+    <script src="javascript/app.js"></script>
+  </body>
 </html>
