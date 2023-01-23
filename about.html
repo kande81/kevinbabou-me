@@ -4,22 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#f4acff" />
-    <!-- <meta name="browser-logo" content="#f4acff" /> -->
-
-    <!-- <meta name="apple-mobile-web-app-status-bar-style" content="black" /> -->
-
-    <title>kevin</title>
-    <link rel="stylesheet" href="https://use.typekit.net/yvr4euv.css" />
+    <title>about</title>
     <link rel="stylesheet" href="style.css" />
-
-    <style>
-      ::-webkit-input-placeholder {
-        color: #f4acff;
-      }
-    </style>
   </head>
-  <body id="home">
+  <body>
     <nav class="header">
       <h1 class="logo"><a href="index.html"> Kevin Babou</a></h1>
 
@@ -33,37 +21,46 @@
         <div class="line2"></div>
       </div>
     </nav>
-    <div class="main">
-      <h1 class="main__header">Hi there!</h1>
-      <p class="main__intro">
-        My name is kevin and I'm a
-        <span class="main__bold">software engineer.</span> I'm currently working
-        at Coinbase on the NFT & ETH stacking team.
-      </p>
-      <p class="main__contacts">
-        Connect on
-        <a
-          class="main__links"
-          href="https://www.linkedin.com/in/kevin-babou/"
-          target="_blank"
-          >LinkedIn</a
-        ><br />
-        Check out my
-        <a
-          class="main__links"
-          href="https://github.com/kevinclb"
-          target="_blank"
-          >Github</a
-        ><br />
-        View my <a class="main__links" href="resume.html">Resume</a><br />
-        Learn my <a class="main__links" href="about.html">Story</a><br />
-        or just email me at
-        <a class="main__links" href="mailto:kevincbabou@gmail.com"
-          >kevincbabou@gmail.com</a
-        >
-      </p>
+    <div class="main" id="main-about">
+      <div class="portrait">
+        <picture>
+          <source
+            media="(max-width: 480px)"
+            srcset="images/kevinbabou-me-web-1500.jpg"
+          />
+          <source
+            srcset="images/kevinbabou-me.jpg"
+            media="(min-width: 1025px)"
+          />
+          <img
+            class="portrait__img"
+            src="images/kevinbabou-me.jpg"
+            alt="portrait"
+          />
+        </picture>
+      </div>
+      <div class="main__hello">
+        <h1 class="main__header-about">Hello!</h1>
+        <lottie-player
+          src="icons/hand.json"
+          background="transparent"
+          speed="1"
+          style="width: 56px; height: 56px; display: inline-block"
+          autoplay
+        ></lottie-player>
+      </div>
+      <div class="bio">
+        <p class="first-para">
+          My name is kevin. I'm 27 years old. I live in North Hollywood CA. I'm
+          a software engineer at Coinbase. I went to California State
+          University, Long Beach. I write in Go and Ruby.
+        </p>
+        <p class="second-para">
+          In my free time I like to skateboard, and read up on tech news. In
+          tech , I have interest in crypto, distributed systems, and AI/ML
+        </p>
+      </div>
     </div>
-
     <div class="footer">
       <p class="footer__legals">
         <span class="copy-symbol">&copy;</span>
@@ -93,6 +90,8 @@
         /></a>
       </div>
     </div>
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js"></script>
     <script src="javascript/app.js"></script>
   </body>
 </html>
