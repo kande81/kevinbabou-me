@@ -3,8 +3,18 @@ const header = document.querySelector(".header");
 const burger = document.querySelector(".burger");
 const nav = document.querySelector(".nav-links");
 const navLinks = document.querySelectorAll(".nav-links li");
+const statusBar = document.querySelector("#status-bar");
+console.log(statusBar);
+
+// console.log("statusBar", statusBar.content);
 
 burger.addEventListener("click", () => {
+  if (statusBar && statusBar.content === "#f4acff") {
+    statusBar.content = "#fff";
+  } else if (statusBar) {
+    statusBar.content = "#f4acff";
+  }
+
   body.classList.toggle("bhidden");
   if (nav.style.animation) {
     nav.style.animation = "";
