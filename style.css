@@ -415,6 +415,13 @@ lottie-player {
   justify-content: center;
 }
 
+@media (orientation: landscape) and (max-width: 933px) {
+  #resume-btn {
+    margin-top: 30px;
+    width: 21.9vw;
+    height: 40px;
+  }
+}
 .main__resume {
   font-family: poppins, sans-serif;
 }
