@@ -1,0 +1,27 @@
+{
+  "description": "Just Black: when you're feeling extra moody",
+  "key": "(long random string of characters)",
+  "manifest_version": 2,
+  "name": "Just Black",
+  "theme": {
+    "colors": {
+      "bookmark_text": [255, 255, 255],
+      "frame": [0, 0, 0],
+      "ntp_background": [0, 0, 0],
+      "ntp_text": [125, 134, 142],
+      "omnibox_background": [200, 65, 65],
+      "omnibox_text": [0, 0, 100],
+      "tab_background_text": [255, 255, 255],
+      "tab_background_text_inactive": [255, 255, 255],
+      "tab_background_text_incognito": [255, 255, 255],
+      "tab_background_text_incognito_inactive": [255, 255, 255],
+      "tab_text": [255, 255, 255],
+      "toolbar_field": "blue",
+      "toolbar": "red",
+      "accentcolor": "red"
+    }
+  },
+  "start_url": "index.html",
+  "platforms": [{ "os": "android" }],
+  "version": "2"
+}

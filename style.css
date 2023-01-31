@@ -308,6 +308,16 @@ body {
   height: 417px;
 }
 
+@media (orientation: landscape) and (max-width: 933px) {
+  .portrait {
+    width: 33.9vw;
+    height: 45.3vh;
+    float: left;
+    margin-right: 3vw;
+    margin-bottom: 30px;
+  }
+}
+
 .portrait__img {
   width: 100%;
   height: 417px;
@@ -315,10 +325,22 @@ body {
   border-radius: 31px;
 }
 
+@media (orientation: landscape) and (max-width: 933px) {
+  .portrait__img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
 #main-about {
   margin-top: 56px;
 }
 
+@media (orientation: landscape) and (max-width: 933px) {
+  #main-about {
+    margin-top: 32px;
+  }
+}
 .main__header-about {
   display: inline-block;
 }
@@ -339,16 +361,38 @@ lottie-player {
   margin-bottom: 35px;
 }
 
+@media (orientation: landscape) and (max-width: 933px) {
+  .main__hello {
+    margin-top: 0px;
+    position: relative;
+    top: -13px;
+    /* display: inline-block; */
+    margin-bottom: 22px;
+  }
+}
 .bio {
   font-size: 1rem;
   font-weight: 200;
   margin-bottom: 87px;
 }
 
+@media (orientation: landscape) and (max-width: 933px) {
+  .bio {
+    position: relative;
+    top: -30px;
+  }
+}
+
 .first-para {
   margin-bottom: 42px;
 }
 
+@media (orientation: landscape) and (max-width: 933px) {
+  .first-para {
+    margin-bottom: 30px;
+    /* width: 57.1vw; */
+  }
+}
 /* end of style for about page */
 
 /* start of style for resume page */
