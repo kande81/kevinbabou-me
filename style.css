@@ -382,6 +382,19 @@ body {
   background-color: #000;
 }
 
+@media (min-width: 440px) {
+  .footer {
+    font-size: 0.78rem;
+    padding-top: 2.68vh;
+    padding-bottom: 2.68vh;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 7.65vw;
+    padding-left: 7.65vw;
+    align-items: center;
+  }
+}
+
 .footer__legals {
   margin-bottom: 8px;
   text-align: center;
@@ -405,12 +418,31 @@ body {
   gap: 5.3vw;
 }
 
+@media (min-width: 440px) {
+  .footer__icons {
+    margin-top: unset;
+    gap: 2.39vw;
+    /* margin-bottom: 0; */
+  }
+}
+
 .footer__linkedin {
   width: 21.74px;
 }
 
+@media (min-width: 440px) {
+  .footer__linkedin {
+    width: 30px;
+  }
+}
 .footer__github {
   width: 21.74px;
+}
+
+@media (min-width: 440px) {
+  .footer__github {
+    width: 30px;
+  }
 }
 
 .footer__in {
