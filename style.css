@@ -472,6 +472,15 @@ body {
   }
 }
 
+@media (min-width: 440px) {
+  .portrait {
+    width: 28.2vw;
+    height: 61.9vh;
+    float: left;
+    margin-right: 4.3vw;
+  }
+}
+
 .portrait__img {
   width: 100%;
   height: 417px;
@@ -479,6 +488,12 @@ body {
   border-radius: 31px;
 }
 
+@media (min-width: 440px) {
+  .portrait__img {
+    width: 100%;
+    height: 100%;
+  }
+}
 @media (orientation: landscape) and (max-width: 933px) {
   .portrait__img {
     width: 100%;
@@ -489,14 +504,27 @@ body {
 #main-about {
   margin-top: 56px;
 }
-
+@media (min-width: 440px) {
+  #main-about {
+    margin-top: 17.59vh;
+  }
+}
 @media (orientation: landscape) and (max-width: 933px) {
   #main-about {
     margin-top: 32px;
   }
 }
-.main__header-about {
+.main__header-about,
+lottie-player {
   display: inline-block;
+}
+
+@media (min-width: 440px) {
+  .main__header-about {
+    font-size: 3.86rem;
+    margin-right: 2.17vw;
+    /* margin-bottom: 25px; */
+  }
 }
 
 .main__header-about,
@@ -508,13 +536,28 @@ lottie-player {
   rotate: -30deg;
   position: relative;
   top: -5px;
+  height: 56px;
+  width: 56px;
 }
 
+@media (min-width: 440px) {
+  lottie-player {
+    height: 100px;
+    width: 100px;
+    top: -8px;
+  }
+}
 .main__hello {
   margin-top: 39px;
   margin-bottom: 35px;
 }
 
+@media (min-width: 440px) {
+  .main__hello {
+    margin-top: unset;
+    margin-bottom: 2.2vh;
+  }
+}
 @media (orientation: landscape) and (max-width: 933px) {
   .main__hello {
     margin-top: 0px;
@@ -524,16 +567,37 @@ lottie-player {
     margin-bottom: 22px;
   }
 }
+
+@media (min-width: 440px) {
+  .main__hello {
+    position: relative;
+    top: -30px;
+  }
+}
 .bio {
   font-size: 1rem;
   font-weight: 200;
   margin-bottom: 87px;
 }
 
+@media (min-width: 440px) {
+  .bio {
+    font-size: 1.21rem;
+    font-weight: 200;
+  }
+}
+
 @media (orientation: landscape) and (max-width: 933px) {
   .bio {
     position: relative;
     top: -30px;
+  }
+}
+
+@media (min-width: 440px) {
+  .bio {
+    position: relative;
+    top: -40px;
   }
 }
 
@@ -545,6 +609,12 @@ lottie-player {
   .first-para {
     margin-bottom: 30px;
     /* width: 57.1vw; */
+  }
+}
+
+@media (min-width: 440px) {
+  .first-para {
+    margin-bottom: 3.6vh;
   }
 }
 /* end of style for about page */
