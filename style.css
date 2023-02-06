@@ -58,8 +58,9 @@ body {
   }
 }
 
-@media (min-width: 440px) {
+@media (min-width: 940px) {
   body {
+    display: grid;
     grid:
       "header" auto
       "main" 1fr
@@ -87,18 +88,18 @@ body {
   background-color: #f4acff;
 }
 
-@media (min-width: 440px) {
+@media (min-width: 940px) {
   .header {
     padding-top: 20px;
     padding-right: 7.65vw;
     padding-left: 7.65vw;
     /* align-items: unset; */
-    /* overflow-x: scroll; */
+    overflow-x: scroll;
     align-items: center;
   }
-  /* .header::-webkit-scrollbar {
+  .header::-webkit-scrollbar {
     display: none;
-  } */
+  }
 }
 @media (orientation: landscape) and (max-width: 933px) {
   .header {
@@ -115,7 +116,7 @@ body {
   transition: all 0.3s ease-out;
 }
 
-@media (min-width: 440px) {
+@media (min-width: 940px) {
   .burger {
     display: none;
   }
@@ -143,7 +144,7 @@ body {
   font-style: normal;
 }
 
-@media (min-width: 440px) {
+@media (min-width: 940px) {
   .logo {
     font-size: 1.65rem;
     align-self: end;
@@ -185,7 +186,7 @@ body {
   }
 }
 
-@media (min-width: 440px) {
+@media (min-width: 940px) {
   .nav-links {
     flex-direction: row;
     justify-content: space-between;
@@ -223,7 +224,7 @@ body {
   font-family: poppins, sans-serif;
 }
 
-@media (min-width: 440px) {
+@media (min-width: 940px) {
   .nav-links a {
     font-size: 1.08rem;
     font-weight: 200;
@@ -247,7 +248,7 @@ body {
     top: 23vh;
   }
 }
-@media (min-width: 440px) {
+@media (min-width: 940px) {
   #about {
     position: unset;
     top: unset;
@@ -271,7 +272,7 @@ body {
   }
 }
 
-@media (min-width: 440px) {
+@media (min-width: 940px) {
   #resume {
     position: unset;
     top: unset;
@@ -307,8 +308,15 @@ body {
 .main {
   grid-area: main;
   font-family: poppins, sans-serif;
-  padding-right: 7.65vw;
-  padding-left: 7.65vw;
+  padding-right: 5.8vw;
+  padding-left: 5.8vw;
+}
+
+@media (min-width: 940px) {
+  .main {
+    padding-right: 7.65vw;
+    padding-left: 7.65vw;
+  }
 }
 
 .main__header {
@@ -324,7 +332,7 @@ body {
   }
 }
 
-@media (min-width: 440px) {
+@media (min-width: 940px) {
   .main__header {
     font-size: 3.6rem;
     margin-bottom: 25px;
@@ -340,7 +348,7 @@ body {
   line-height: 34px;
 }
 
-@media (min-width: 440px) {
+@media (min-width: 940px) {
   .main__intro {
     font-size: 1.43rem;
     margin-bottom: 8.14vh;
@@ -359,7 +367,7 @@ body {
   font-weight: 200;
 }
 
-@media (min-width: 440px) {
+@media (min-width: 940px) {
   .main__contacts {
     font-size: 1.21rem;
     margin-bottom: 15.6vh;
@@ -382,7 +390,7 @@ body {
   background-color: #000;
 }
 
-@media (min-width: 440px) {
+@media (min-width: 940px) {
   .footer {
     font-size: 0.78rem;
     padding-top: 2.68vh;
@@ -418,7 +426,7 @@ body {
   gap: 5.3vw;
 }
 
-@media (min-width: 440px) {
+@media (min-width: 940px) {
   .footer__icons {
     margin-top: unset;
     gap: 2.39vw;
@@ -430,7 +438,7 @@ body {
   width: 21.74px;
 }
 
-@media (min-width: 440px) {
+@media (min-width: 940px) {
   .footer__linkedin {
     width: 30px;
   }
@@ -439,7 +447,7 @@ body {
   width: 21.74px;
 }
 
-@media (min-width: 440px) {
+@media (min-width: 940px) {
   .footer__github {
     width: 30px;
   }
@@ -472,7 +480,7 @@ body {
   }
 }
 
-@media (min-width: 440px) {
+@media (min-width: 940px) {
   .portrait {
     width: 28.2vw;
     height: 61.9vh;
@@ -488,7 +496,7 @@ body {
   border-radius: 31px;
 }
 
-@media (min-width: 440px) {
+@media (min-width: 940px) {
   .portrait__img {
     width: 100%;
     height: 100%;
@@ -504,7 +512,7 @@ body {
 #main-about {
   margin-top: 56px;
 }
-@media (min-width: 440px) {
+@media (min-width: 940px) {
   #main-about {
     margin-top: 17.59vh;
   }
@@ -519,7 +527,7 @@ lottie-player {
   display: inline-block;
 }
 
-@media (min-width: 440px) {
+@media (min-width: 940px) {
   .main__header-about {
     font-size: 3.86rem;
     margin-right: 2.17vw;
@@ -540,7 +548,7 @@ lottie-player {
   width: 56px;
 }
 
-@media (min-width: 440px) {
+@media (min-width: 940px) {
   lottie-player {
     height: 100px;
     width: 100px;
@@ -552,7 +560,7 @@ lottie-player {
   margin-bottom: 35px;
 }
 
-@media (min-width: 440px) {
+@media (min-width: 940px) {
   .main__hello {
     margin-top: unset;
     margin-bottom: 2.2vh;
@@ -568,7 +576,7 @@ lottie-player {
   }
 }
 
-@media (min-width: 440px) {
+@media (min-width: 940px) {
   .main__hello {
     position: relative;
     top: -30px;
@@ -580,7 +588,7 @@ lottie-player {
   margin-bottom: 87px;
 }
 
-@media (min-width: 440px) {
+@media (min-width: 940px) {
   .bio {
     font-size: 1.21rem;
     font-weight: 200;
@@ -594,7 +602,7 @@ lottie-player {
   }
 }
 
-@media (min-width: 440px) {
+@media (min-width: 940px) {
   .bio {
     position: relative;
     top: -40px;
@@ -612,7 +620,7 @@ lottie-player {
   }
 }
 
-@media (min-width: 440px) {
+@media (min-width: 940px) {
   .first-para {
     margin-bottom: 3.6vh;
   }
@@ -644,8 +652,22 @@ lottie-player {
     margin-top: 30px;
     width: 21.9vw;
     height: 40px;
+    padding: auto;
   }
 }
+
+@media (min-width: 940px) {
+  #resume-btn {
+    /* display: flex; */
+    margin-top: 17.3vh;
+    width: 279px;
+    height: 6.6vh;
+    font-size: 1.21rem;
+    padding: 12px;
+    margin-bottom: 13.9vh;
+  }
+}
+
 .main__resume {
   font-family: poppins, sans-serif;
 }
@@ -655,6 +677,13 @@ lottie-player {
   font-weight: 800;
   color: #000;
   margin-bottom: 41px;
+}
+
+@media (min-width: 940px) {
+  .main__section-header {
+    font-size: 2.65rem;
+    margin-bottom: 61px;
+  }
 }
 
 .main__section-sub span {
@@ -671,6 +700,12 @@ lottie-player {
   word-wrap: break-word;
 }
 
+@media (min-width: 940px) {
+  .main__section-sub {
+    font-size: 1.65rem;
+    margin-bottom: 11px;
+  }
+}
 .main__date {
   margin-bottom: 4px;
   font-variant: small-caps;
@@ -678,18 +713,47 @@ lottie-player {
   font-weight: 600;
 }
 
+@media (min-width: 940px) {
+  .main__date {
+    font-size: 1.21rem;
+    margin-bottom: 11px;
+  }
+}
 .main__section-details {
   font-size: 0.73rem;
   line-height: 26px;
   font-weight: 200;
 }
 
+@media (min-width: 940px) {
+  .main__section-details {
+    font-size: 1.21rem;
+    line-height: 50px;
+  }
+}
+
 .main__jobs:nth-child(2) {
   margin-bottom: 29px;
 }
 
+@media (min-width: 940px) {
+  .main__jobs:nth-child(2) {
+    margin-bottom: 31px;
+  }
+}
+
 .main__jobs:last-child {
   margin-bottom: 41px;
+}
+
+@media (min-width: 940px) {
+  .main__jobs:last-child {
+    margin-bottom: 61px;
+  }
+
+  .main__jobs:last-child {
+    margin-bottom: 61px;
+  }
 }
 
 .main__project-list:nth-child(2) {
@@ -706,4 +770,10 @@ lottie-player {
 
 .main__aside {
   margin-bottom: 87px;
+}
+
+@media (min-width: 940px) {
+  .main__aside {
+    margin-bottom: 169px;
+  }
 }
