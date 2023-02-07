@@ -235,7 +235,7 @@ body {
   /* display: none; */
 }
 
-#about {
+.about {
   position: absolute;
   top: 35.3vh;
   right: 5.8vw;
@@ -244,12 +244,12 @@ body {
 }
 
 @media (orientation: landscape) and (max-width: 933px) {
-  #about {
+  .about {
     top: 23vh;
   }
 }
 @media (min-width: 940px) {
-  #about {
+  .about {
     position: unset;
     top: unset;
     right: unset;
@@ -258,7 +258,7 @@ body {
   }
 }
 
-#resume {
+.resume {
   position: absolute;
   top: 46.6vh;
   right: 5.8vw;
@@ -267,13 +267,13 @@ body {
 }
 
 @media (orientation: landscape) and (max-width: 933px) {
-  #resume {
+  .resume {
     top: 46vh;
   }
 }
 
 @media (min-width: 940px) {
-  #resume {
+  .resume {
     position: unset;
     top: unset;
     right: unset;
@@ -509,16 +509,16 @@ body {
   }
 }
 
-#main-about {
+.main-about {
   margin-top: 56px;
 }
 @media (min-width: 940px) {
-  #main-about {
+  .main-about {
     margin-top: 17.59vh;
   }
 }
 @media (orientation: landscape) and (max-width: 933px) {
-  #main-about {
+  .main-about {
     margin-top: 32px;
   }
 }

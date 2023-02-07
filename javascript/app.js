@@ -1,4 +1,6 @@
 const body = document.querySelector("body");
+const main = document.querySelector(".main");
+
 const header = document.querySelector(".header");
 const burger = document.querySelector(".burger");
 const nav = document.querySelector(".nav-links");
@@ -43,3 +45,11 @@ if (!body.id) {
 }
 
 // end of code to set the color of background of the header and body
+
+// adding the line underneath the current link
+const page = main.getAttribute("data-page");
+navLinks.forEach((link) => {
+  if (link.getAttribute("id") === page) {
+    link.style.borderBottom = "2px solid #000";
+  }
+});
