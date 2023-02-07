@@ -188,7 +188,7 @@ body {
 
 @media (min-width: 940px) {
   .nav-links {
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-between;
     display: flex;
     position: unset;
@@ -203,7 +203,7 @@ body {
     align-items: unset;
     transition: unset;
     /* overflow-x2: auto; */
-    width: 13%;
+    width: 14%;
 
     background-color: unset;
   }
